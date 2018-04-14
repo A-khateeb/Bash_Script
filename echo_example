@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "hello"
+#Assign a value to variable 
+WORD='script'
+echo "$WORD"
+echo '$WORD'
+echo "This is a shell $WORD"
+echo "This is a shell ${WORD}"
+echo "${WORD}ing is fun!"
+echo "$WORD ing is fun"
+
+ENDING='ed'
+
+echo "This is ${WORD}${ENDING}"
+ENDING='ing'
+echo "${WORD}${ENDING} is fun!"
+ENDING='s'
+echo "You are going to write many ${WORD}${ENDING} in this class"
+

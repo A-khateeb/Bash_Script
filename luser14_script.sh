@@ -68,7 +68,7 @@ then
 	echo "Hello"
 	log 'Selecting a random special character'
 	SPECIAL_CHARACTER=$(echo '!@#$%^&*-+=' | fold -w1 | shuf | head -c10)
-  PASSWORD="${PASSWORD}${SPECIAL_CHARACTER}"
+        PASSWORD="${PASSWORD}${SPECIAL_CHARACTER}"
 fi
 log 'Done'
 log 'Here is the password'
